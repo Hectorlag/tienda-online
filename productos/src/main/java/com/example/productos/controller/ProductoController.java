@@ -50,12 +50,10 @@ public class ProductoController {
     }
 
     @DeleteMapping("/delete/{id}")
-    public ResponseEntity<String> deleteProduct(@PathVariable Long id, @Valid
-                                                BindingResult bindingResult){
+    public ResponseEntity<String> deleteProduct(@PathVariable Long id){
         //Handle validation errors
-        if(bindingResult.hasErrors()){
-            return ResponseEntity.badRequest().body("Validation error: " +
-                    bindingResult.getAllErrors());
+        if(id == null){
+            return ResponseEntity.badRequest().body("The id cannot be null" );
         }
         proServi.deleteProduct(id);
         return ResponseEntity.ok("Successfully deleted product");

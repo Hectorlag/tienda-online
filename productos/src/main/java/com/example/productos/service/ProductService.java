@@ -17,7 +17,7 @@ public class ProductService implements IProductService{
     @Override
     public List<Product> getProducts() {
 
-        return proRepo.findAll();
+        return proRepo.findByDeletedFalse();
     }
 
     @Override

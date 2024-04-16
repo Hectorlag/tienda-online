@@ -1,4 +1,4 @@
-package com.example.compras;
+package com.example.ventas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,10 +8,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
-public class ComprasApplication {
+public class VentasApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ComprasApplication.class, args);
+		SpringApplication.run(VentasApplication.class, args);
 	}
 
 }
