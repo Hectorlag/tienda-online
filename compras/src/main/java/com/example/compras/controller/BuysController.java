@@ -4,6 +4,7 @@ import com.example.compras.DTO.BuysProductsDTO;
 import com.example.compras.model.Buys;
 import com.example.compras.service.IBuysService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,6 +17,9 @@ public class BuysController {
     @Autowired
     private IBuysService buysServi;
 
+    @Value("${server.port}")
+    private int serverPort;
+
     @GetMapping("/get")
     public List<Buys> getBuys(){
 
@@ -24,6 +28,7 @@ public class BuysController {
 
     @PostMapping("/create")
     public BuysProductsDTO addProducts(@RequestBody List<Long> idsProducts) {
+
 
       /*  if(idsProducts == null || idsProducts.isEmpty()){
 
@@ -68,6 +73,8 @@ public class BuysController {
     // I get buys and details
     @GetMapping("/getdetails/{id}")
     public ResponseEntity<?> findBuysById(@PathVariable Long id){
+
+        System.out.println("Estoy en el puerto: " + serverPort );
 
         if(id == null){
             return ResponseEntity.badRequest().body("The id cannot be null");
