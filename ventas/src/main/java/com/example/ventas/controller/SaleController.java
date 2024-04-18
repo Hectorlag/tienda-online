@@ -5,6 +5,7 @@ import com.example.ventas.model.Sale;
 import com.example.ventas.service.ISaleService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
@@ -82,6 +83,7 @@ public class SaleController {
 
     @GetMapping("/getwithbuys/{sales_id}")
     public ResponseEntity<?> getSalesAndBuys(@PathVariable Long sales_id){
+
 
        if(sales_id == null){
            return ResponseEntity.badRequest().body("The id cannot be null");
