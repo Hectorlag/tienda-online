@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b6187ca9-25f9-4631-96ba-0a0934ad446f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../compras/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eureka-sv/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../productos/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ventas/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compras/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../compras/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compras/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../compras/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-sv.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-sv.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eureka-sv/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../eureka-sv/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../productos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../productos/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../productos/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ventas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ventas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ventas/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ventas/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2fHYFcmKqwWvkAo1q38ZauDiMNs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Hector",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/TodoCode/Curso Microservicios/Tienda-online/tienda-online/config-data"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6187ca9-25f9-4631-96ba-0a0934ad446f" name="Changes" comment="" />
+      <created>1713459367985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713459367985</updated>
+    </task>
+    <servers />
+  </component>
+</project>
